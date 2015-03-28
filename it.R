@@ -1,5 +1,5 @@
+pdf("italy.pdf")
 italia <- read.csv("it.txt",sep="\t",head=T)
-str(italia)
 lon = italia$LONG
 lat = italia$LAT
 coords <- data.frame(lon,lat)
